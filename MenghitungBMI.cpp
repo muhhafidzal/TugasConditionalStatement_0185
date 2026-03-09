@@ -29,7 +29,13 @@ string statusBMI(float bmi){
 }
 
 int main(){
+    float berat, tinggi, bmi;
+
     cout << "--- Selamat Datang Mahasiswa Kelas D 2026 ---" << endl;
+
+    inputdata(berat, tinggi);
+
+    bmi = hitungBMI(berat, tinggi);
 
     return 0;
 }
